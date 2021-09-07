@@ -34,6 +34,11 @@ variable "secret_key" {
   type        = string
 }
 
+variable "new_var" {
+  description   = "test"
+  type          = string
+}
+
 resource "aws_instance" "app_server" {
   ami           = "ami-08d70e59c07c61a3a"
   instance_type = "t1.micro"
