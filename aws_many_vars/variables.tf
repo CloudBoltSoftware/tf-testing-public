@@ -29,7 +29,7 @@ variable "ami" {
 variable "instance_name" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "ExampleAppServerInstance"
+  default     = "AutomationAwsTerraform"
 }
 
 variable "instance_type" {
