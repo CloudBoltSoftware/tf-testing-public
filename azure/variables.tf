@@ -9,6 +9,6 @@ variable "environment" {
 }
 
 variable "name" {
-  default = "mishazuretfopt"
+  default = "automationazuretf"
   description = "Used for tagging"
 }
